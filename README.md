@@ -18,7 +18,26 @@ You can use different grant types to get an access token. By now, `password` and
 
 Firstly, you should create some entries in your **MongoDB** database.
 
-> You can call the `loadExampleData` function at `model.js` in order to create these entries automatically, and `dump` function to inspect the database content.
+> You can call the `loadExampleData` function at `model.js` in order to create these entries automatically, and `dump` function to inspect the database content. Export/add this functions at `module.exports` definition and call functions in app.js after mongodb connection
+
+`model.js`
+```
+module.exports = {
+	dump: dump,
+	loadExampleData: loadExampleData,
+	getAccessToken: getAccessToken,
+	getClient: getClient,
+	saveToken: saveToken,
+	getUser: getUser,
+	getUserFromClient: getUserFromClient
+};
+```
+
+`app.js`
+```
+model = require('./model');
+model.loadExampleData();
+```
 
 #### With *password* grant
 
