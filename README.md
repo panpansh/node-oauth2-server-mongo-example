@@ -156,4 +156,5 @@ curl http://localhost:3000 \
 
 ### Understanding OAuth 2.0
 
-
+**(Understanding) OAuth2… for real?** by Johannes Pichler
+https://www.youtube.com/watch?v=f36s7KtnUD4
