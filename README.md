@@ -153,3 +153,7 @@ For example, using `curl`:
 curl http://localhost:3000 \
 	-H "Authorization: Bearer 951d6f603c2ce322c5def00ce58952ed2d096a72"
 ```
+
+### Understanding OAuth 2.0
+
+https://akrabat.com/talks/protect-your-api-with-oauth2-codetalks/
