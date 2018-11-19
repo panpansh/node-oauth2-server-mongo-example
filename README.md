@@ -156,4 +156,4 @@ curl http://localhost:3000 \
 
 ### Understanding OAuth 2.0
 
-https://akrabat.com/talks/protect-your-api-with-oauth2-codetalks/
+
