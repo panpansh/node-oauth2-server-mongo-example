@@ -36,6 +36,7 @@ module.exports = {
 `app.js`
 ```
 model = require('./model');
+// -- [mongo connect] --
 model.loadExampleData();
 ```
 
